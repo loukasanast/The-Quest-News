@@ -1,0 +1,88 @@
+{
+    "news": [
+        {
+            "title": "This is a Heading.",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dui vel erat eleifend dapibus. Nam blandit fringilla nibh id ullamcorper. Duis consequat, nibh at faucibus varius, dolor dui gravida tortor, ut consequat metus enim non nisi. Curabitur vehicula tincidunt lorem ac euismod.",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "This is a Heading.",
+            "body": "Proin posuere placerat volutpat. Proin a risus turpis. Fusce commodo leo nec leo commodo euismod. Donec diam ante, mollis eu odio quis, ultrices luctus mi. Mauris laoreet ex eu consequat.",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "This is another Heading for the News.",
+            "body": "Sed facilisis orci ligula, nec mattis mauris ultricies id. Mauris facilisis, metus at commodo mollis, risus nunc imperdiet dui, eget fringilla enim metus ac magna. Donec mauris urna, tincidunt vel ultricies vitae, hendrerit id turpis. Maecenas tincidunt quis velit a rhoncus. Morbi nec vehicula ante lipsum amet.",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "Proin posuere placerat volutpat. Proin a risus turpis.",
+            "body": "",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "Fusce commodo leo nec leo odo euismod. Donec diam ante.",
+            "body": "",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "This is another Heading for the News.",
+            "body": "Pellentesque bibendum fringilla leo at semper. Curabitur ac ante ultrices, dignissim est ut, interdum sapien. Maecenas fringilla, dolor a volutpat scelerisque, nisi urna fermentum nunc, et lobortis odio ipsum a orci. Praesent imperdiet justo ut ex bibendum pretium. Vivamus rhoncus nunc laoreet, sagittis tellus vitae, pharetra magna.",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "Mauris laoreet ex eu.",
+            "body": "",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "Duis vestibulum.",
+            "body": "",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "Maecenas dictum.",
+            "body": "",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "This is a Heading.",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dui vel erat eleifend dapibus. Nam blandit fringilla nibh id ullamcorper. Duis consequat, nibh at faucibus varius, dolor dui gravida tortor, ut consequat metus enim non nisi. Curabitur vehicula tincidunt lorem ac euismod.",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        },
+        {
+            "title": "This is a Heading.",
+            "body": "Proin posuere placerat volutpat. Proin a risus turpis. Fusce commodo leo nec leo commodo euismod. Donec diam ante, mollis eu odio quis, ultrices luctus mi. Mauris laoreet ex eu consequat.",
+            "author": "John Doe",
+            "date": "Mon, 19.02.2018"
+        }
+    ],
+    "politics": [
+        
+    ],
+    "business": [
+        
+    ],
+    "culture": [
+        
+    ],
+    "sport": [
+        
+    ],
+    "tech": [
+        
+    ],
+    "celebs": [
+        
+    ]
+}

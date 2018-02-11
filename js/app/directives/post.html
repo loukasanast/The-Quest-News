@@ -1,0 +1,8 @@
+<div class="image" style="background-image:url(img/images/{{!!image ? image : 'spacer.png);display:none'}}" alt= />
+<h2 ng-click="fn()" data-postid="{{postid}}">{{title.length > 36 ? title.substring(0, 36) + '… ' : title}}</h2>
+<p>
+    <span class="post-body">{{body.length > length ? body.substring(0, length) + '… ' : body}}</span>
+    <span class="post-info" ng-show="!!author">
+        {{'by ' + author + ' — '}}<i class="fa fa-clock"></i>{{date}}<i class="fa fa-eye"></i>{{views}}<i class="fa fa-cut"><a href="mailto:?subject=Found the Perfect Online Newspaper.!&body={{title}} &ndash; {{body}}"></i>Share!</a>
+    </span>
+</p>

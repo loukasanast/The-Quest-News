@@ -1,0 +1,44 @@
+<form ng-submit="submitPost()" class="frm-publish">
+    <h2>Publish an Article.</h2>
+    <p>
+        Hello Dear Writer. Please, complete all required fields and use as many sentences as possible. 
+        After submitting, your article will be available to the readers .. and the wonderful world of 
+        the internet. Kind regards!
+    </p>
+    <input class="txt-name" type="text" placeholder="Enter the Author Name*" required />
+    <select class="slc-category" required>
+        <option value="home">Choose a Section*</option>
+        <option value="home">News Section</option>
+        <option value="politics">Politics Section</option>
+        <option value="business">Business Section</option>
+        <option value="culture">Culture Section</option>
+        <option value="sport">Sport Section</option>
+        <option value="tech">Tech Section</option>
+        <option value="celebs">Celebs Section</option>
+    </select>
+    <input class="txt-title" type="text" placeholder="Enter the Article Title*" required />
+    <textarea class="txt-post" placeholder="Enter the Article Text*" required></textarea>
+    <div class="img-upload">
+        <img src="img/icn-upload.png" alt="Upload Image" />
+        <span class="lbl-upload">Upload Article Image&hellip;</span>
+        <input form="frm-upload" type="file" id="file-select" name="image" accept=".png, .PNG, .jpg, .JPG, .gif, .GIF" placeholder="Enter file here." />
+        <iframe id="file-frame" name="file-frame" src="" style="display:none;"></iframe>
+    </div>
+    <button class="btn-publish" type="submit">Publish</button>
+    <div class="terms">By clicking <em>Publish</em> you agree to the Terms and Conditions.</div>
+</form>
+<form id="frm-upload" method="post" action="upload.do" target="file-frame" enctype="multipart/form-data"></form>
+<script>
+    (function(){
+        'use strict';
+        $('#file-select').change(function(){
+            $('#frm-upload').submit();
+            $('.img-upload').append('<img class="preloader" src="img/preloader.gif" alt="preloader" style="width:24px;margin:16px 0 0 0;" />');
+            setTimeout(function(){
+                $('.lbl-upload').text('..' + $('#file-select').val().substring($('#file-select').val().lastIndexOf('\\')));
+                $('.img-upload').css('color', 'blueviolet');
+                $('.preloader').remove();
+            }, 6000);
+        });
+    }());
+</script>

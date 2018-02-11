@@ -1,0 +1,16 @@
+<article class="full-article">
+    <div class="image" style="background-image:url(img/images/{{current.image}})" />
+    <h2>{{current.title}}</h2>
+    <p>
+        {{current.body}}
+        <br />
+        <span class="post-info">{{'by ' + current.author + ' — '}}<i class="fa fa-clock"></i>{{current.date}}<i class="fa fa-eye"></i>112<i class="fa fa-cut"></i>Share!</span>
+    </p>
+    <div class="comment" ng-repeat="cmt in current.comments">
+        <em>{{cmt.date}}</em> <strong>Anonymous wrote:</strong>
+        <p>{{cmt.body}}</p>
+    </div>
+    <form ng-submit="submitComment(current.id)" class="frm-comment">
+        <input class="txt-comment" type="text" placeholder="Enter Comment here…"  />
+    </form>
+</article>
